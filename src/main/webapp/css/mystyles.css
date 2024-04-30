@@ -1,0 +1,89 @@
+@charset "UTF-8";
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    }
+        
+   .card {
+    width: 600px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    animation: fadeIn 2s forwards;
+   
+}
+
+@keyframes fadeIn {
+    from {
+        background-color: rgba(255, 0, 0, 0); /* Transparent */
+    }
+    to {
+        background-color: rgba(255, 255, 255, 0.5); /* Solid white */
+    }
+}
+    
+h1{
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	}
+	
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 20px 30px;
+        margin: 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+   		color: white;   
+    }
+    
+    a{
+        text-decoration: none;
+   		color: white;
+    }
+
+    .button:hover {
+        background-color: #555;
+    }
+
+    .green-button {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .green-button:hover {
+        background-color: #2E854B;
+    }
+
+    .blue-button {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .blue-button:hover {    
+        background-color: #0056b3;
+    }
+
+    .red-button {
+        background-color: #ff0000;
+        color: white;
+    }
+
+    .red-button:hover {
+        background-color: #cc0000;
+    }
